@@ -10,6 +10,8 @@ def translate(w):
     #For Proper Nouns
     elif w.title() in data:
         return data[w.title()]
+    elif w.upper() in data:
+        return data[w.upper()]
     else:
         return "The word does not exist. Please check it."
 
