@@ -27,7 +27,6 @@ def translate(w):
     else:
         return "The word does not exist. Please check it."
 
-
 word = input("Enter word: ")
 output = translate(word)
 # Optimizing the definition
